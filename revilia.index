@@ -5,7 +5,7 @@
 		<description>Revilia Macerası kural kitabı</description>
 		<author url="https://www.facebook.com/groups/209525739513259/">Revilia Group</author>
 		<update version="0.0.1">
-			<file name="revilia.index" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/homebrew/Revilia.index" />
+			<file name="revilia.index" url="https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia.index?token=AOB3S5DBE7S2TXTBTT543DC57BF6C" />
 		</update>
 	</info>
 	<files>
