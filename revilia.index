@@ -5,13 +5,18 @@
 		<description>Revilia Macerası kural kitabı</description>
 		<author url="https://www.facebook.com/groups/209525739513259/">Revilia Group</author>
 		<update version="0.0.1">
-			<file name="revilia.index" url="https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia.index?token=AOB3S5DBE7S2TXTBTT543DC57BF6C" />
+			<file name="revilia.index" url="https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia.index" />
 		</update>
 	</info>
 	<files>
-		<file name="sources.xml" url="http://raw.githubusercontent.com/aurorabuilder/elements/master/homebrew/reddit/sources.xml" />
+		<file name="sources.xml" url="https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia/sources.xml" />
+		<file name="languages.xml" url="https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia/languages.xml" />
+		<file name="deities.xml" url="https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia/deities.xml" />
+		
+		<!-- races -->
+		<file name="race-insan.xml" url"https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia/race-insan.xml" />
 		
 		<!-- archetypes -->
-		<file name="wizard-rune.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/homebrew/reddit/wizard-rune.xml" />
+		<file name="archetype-runemage.xml" url="https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia/archetype-runemage.xml" />
 	</files>
 </index>
