@@ -4,7 +4,7 @@
         <name>Rune Mage</name>
         <description>Rün büyücüsü Revilia'da bulunan rünlerin gücünü kullanarak büyü yapan büyücülerdir.</description>
         <update version="0.0.1">
-            <file name="archetype-runemage.xml" url="https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia/archetype-runemage.xml?token=AOB3S5EIH4UDXGMGMBXWFGS57BHKG" />
+            <file name="archetype-runemage.xml" url="https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia/archetype-runemage.xml" />
         </update>
     </info>
     <element name="Rün Büyücüsü" type="Archetype" source="Revilia" id="ID_AIRI_REVILIA_WIZARD_ARCHETYPE_RUNEMAGE">
