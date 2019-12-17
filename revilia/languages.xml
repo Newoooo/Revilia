@@ -5,7 +5,7 @@
 		<description>Revilia'da konuşulan diller.</description>
 		<author url="wwww">Revilia</author>
 		<update version="0.2">
-			<file name="revilia-languages.xml" url="wwww" />
+			<file name="revilia-languages.xml" url="https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia/languages.xml?token=AOB3S5E4QC5TJNH7V4KK4FK57BHSY" />
 		</update>
 	</info>
 
