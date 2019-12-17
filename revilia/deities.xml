@@ -4,7 +4,7 @@
         <name>Revilia Deities</name>
         <description>Revilia'daki tanrılar.</description>
         <update version="0.0.1">
-            <file name="deities.xml" url="https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia/deities.xml?token=AOB3S5FDDNQ6DEFLC5ODDR257BHBW" />
+            <file name="deities.xml" url="https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia/deities.xml" />
         </update>
     </info>
     <element name="Limire" type="Deity" source="Revilia" id="ID_airi_revilia_DEITY_Limire">
