@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Revilia Deities</name>
+        <description>Revilia'daki tanrılar.</description>
+        <update version="0.0.1">
+            <file name="deities.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/homebrew/reddit/deities.xml" />
+        </update>
+    </info>
+    <element name="Limire" type="Deity" source="Revilia" id="ID_airi_revilia_DEITY_Limire">
+        <description>
+            <p class="flavor">Yaşam Tanrıçası</p>
+        </description>
+        <setters>
+            <set name="setting">Revilia</set>
+            <set name="alignment">"LG"</set>
+            <set name="domains">"Yaşam"</set>
+            <set name="symbol">Yeşil Elma</set>
+            <set name="gender">Kadın</set>
+        </setters>
+        <sheet>
+            <description>Yaşam Tanrıçası</description>
+        </sheet>
+    </element>
+    <element name="Wolasxz" type="Deity" source="Revilia" id="ID_airi_revilia_DEITY_Wolasxz">
+        <description>
+            <p class="flavor">Ölüm Tanrısı</p>
+        </description>
+        <setters>
+            <set name="setting">Revilia</set>
+            <set name="alignment">"CE"</set>
+            <set name="domains">"Ölüm"</set>
+            <set name="symbol">Kurukafa</set>
+            <set name="gender">Erkek</set>
+        </setters>
+        <sheet>
+            <description>Ölüm Tanrısı</description>
+        </sheet>
+    </element>
+    <element name="Aeternum" type="Deity" source="Revilia" id="ID_airi_revilia_DEITY_Aeternum">
+        <description>
+            <p class="flavor">Sonsuzluk Tanrısı</p>
+        </description>
+        <setters>
+            <set name="setting">Revilia</set>
+            <set name="alignment">"LN"</set>
+            <set name="domains">"Sonsuzluk"</set>
+            <set name="symbol">Yuvarlak Siyah dairenin içinde yıldızlar</set>
+            <set name="gender">Erkek</set>
+        </setters>
+        <sheet>
+            <description>Sonsuzluk Tanrısı</description>
+        </sheet>
+    </element>
+    <element name="Danrukanos" type="Deity" source="Revilia" id="ID_airi_revilia_DEITY_Danrukanos">
+        <description>
+            <p class="flavor">Zaman Tanrısı</p>
+        </description>
+        <setters>
+            <set name="setting">Revilia</set>
+            <set name="alignment">"NG"</set>
+            <set name="domains">"Zaman"</set>
+            <set name="symbol">Kum Saati</set>
+            <set name="gender">Erkek</set>
+        </setters>
+        <sheet>
+            <description>Zaman Tanrısı</description>
+        </sheet>
+    </element>
+    <element name="Noronim" type="Deity" source="Revilia" id="ID_airi_revilia_DEITY_Noronim">
+        <description>
+            <p class="flavor">Trin'in büyü ve doğa tanrıçası.</p>
+        </description>
+        <setters>
+            <set name="setting">Revilia</set>
+            <set name="alignment">"LG"</set>
+            <set name="domains">"Büyü, Deniz, Bitki, Trin"</set>
+            <set name="symbol">Büyülü Bitki</set>
+            <set name="gender">Kadın</set>
+        </setters>
+        <sheet>
+            <description>Büyü Tanrıçası</description>
+        </sheet>
+    </element>
+    <element name="Ephiom" type="Deity" source="Revilia" id="ID_airi_revilia_DEITY_Ephiom">
+        <description>
+            <p class="flavor">Magistal zeka tanrısı.</p>
+        </description>
+        <setters>
+            <set name="setting">Revilia</set>
+            <set name="alignment">"NG"</set>
+            <set name="domains">"Zeka, Toprak, Yer şekilleri"</set>
+            <set name="symbol">Kırmızı üçgen içinde Mavi Daire</set>
+            <set name="gender"></set>
+        </setters>
+        <sheet>
+            <description>Zeka Tanrısı</description>
+        </sheet>
+    </element>
+    <element name="Qoulca" type="Deity" source="Revilia" id="ID_airi_revilia_DEITY_Qoulca">
+        <description>
+            <p class="flavor">Auvan'ın Delilik Tanrısı</p>
+        </description>
+        <setters>
+            <set name="setting">Revilia</set>
+            <set name="alignment">"CE"</set>
+            <set name="domains">"Delilik, Ateş, Auvan"</set>
+            <set name="symbol">Tüm bölgeleri farklı insan duygularını ifade eden kare.</set>
+            <set name="gender">Erkek</set>
+        </setters>
+        <sheet>
+            <description>Delilik Tanrısı</description>
+        </sheet>
+    </element>
+    <element name="Ruktt'ora" type="Deity" source="Revilia" id="ID_airi_revilia_DEITY_Rukktora">
+        <description>
+            <p class="flavor">Yarı insanların Bencillik tanrısı</p>
+        </description>
+        <setters>
+            <set name="setting">Revilia</set>
+            <set name="alignment">"NE"</set>
+            <set name="domains">"Bencillik, Korku, Öfke"</set>
+            <set name="symbol">Kırmızı Güneş</set>
+            <set name="gender"></set>
+        </setters>
+        <sheet>
+            <description>Bencillik Tanrıçası</description>
+        </sheet>
+    </element>
+
+    <element name="Amavien" type="Deity" source="Revilia" id="ID_airi_revilia_DEITY_Amavien">
+        <description>
+            <p class="flavor">Yarı insanların Aşk tanrıçası.</p>
+        </description>
+        <setters>
+            <set name="setting">Revilia</set>
+            <set name="alignment">"LG"</set>
+            <set name="domains">"Aşk, Düzen, Cömertlik"</set>
+            <set name="symbol">Kalp</set>
+            <set name="gender">female</set>
+        </setters>
+        <sheet>
+            <description>Aşk Tanrıçası</description>
+        </sheet>
+    </element>
+    <element name="Tandurin" type="Deity" source="Revilia" id="ID_airi_revilia_DEITY_Tandurin">
+        <description>
+            <p class="flavor">İblislerin Lanet Tanrısı</p>
+        </description>
+        <setters>
+            <set name="setting">Revilia</set>
+            <set name="alignment">"NE"</set>
+            <set name="domains">"Lanet, değişim, sır"</set>
+            <set name="symbol">İblis Boynuzları</set>
+            <set name="gender"></set>
+        </setters>
+        <sheet>
+            <description>Lanet İblisi</description>
+        </sheet>
+    </element>
+    <element name="Deuruf" type="Deity" source="Revilia" id="ID_airi_revilia_DEITY_Deuruf">
+        <description>
+            <p class="flavor">Hırsızlık Tanrısı</p>
+        </description>
+        <setters>
+            <set name="setting">Revilia</set>
+            <set name="alignment">"CN"</set>
+            <set name="domains">"Şans"</set>
+            <set name="symbol">Sikke</set>
+            <set name="gender">Erkek</set>
+        </setters>
+        <sheet>
+            <description>Hırsız olanların taptığı şans tanrısı.</description>
+        </sheet>
+    </element>
+    <element name="Ruthun" type="Deity" source="Revilia" id="ID_airi_revilia_DEITY_Ruthun">
+        <description>
+            <p class="flavor">Doğa Tanrısı</p>
+        </description>
+        <setters>
+            <set name="setting">Revilia</set>
+            <set name="alignment">"NG"</set>
+            <set name="domains">"Doğa"</set>
+            <set name="symbol">Ağaç</set>
+            <set name="gender">Erkek</set>
+        </setters>
+        <sheet>
+            <description>Doğa Tanrısı</description>
+        </sheet>
+    </element>
+    <element name="Blatro" type="Deity" source="Revilia" id="ID_airi_revilia_DEITY_Blatro">
+        <description>
+            <p class="flavor">Çöl Ruhu</p>
+        </description>
+        <setters>
+            <set name="setting">Revilia</set>
+            <set name="alignment">"LN"</set>
+            <set name="domains">"Çöl"</set>
+            <set name="symbol">Kum</set>
+            <set name="gender">Erkek</set>
+        </setters>
+        <sheet>
+            <description>Çöl Ruhu</description>
+        </sheet>
+    </element>
+    <element name="Dzaru" type="Deity" source="Revilia" id="ID_airi_revilia_DEITY_Dzaru">
+        <description>
+            <p class="flavor">Kutup Ruhu</p>
+        </description>
+        <setters>
+            <set name="setting">Revilia</set>
+            <set name="alignment">"LN"</set>
+            <set name="domains">"Kutup"</set>
+            <set name="symbol">Buzullar</set>
+            <set name="gender">Erkek</set>
+        </setters>
+        <sheet>
+            <description>Kutup Ruhu</description>
+        </sheet>
+    </element>
+    <element name="Celerinus" type="Deity" source="Revilia" id="ID_airi_revilia_DEITY_Celerinus">
+        <description>
+            <p class="flavor">Hız Tanrısı</p>
+        </description>
+        <setters>
+            <set name="setting">Revilia</set>
+            <set name="alignment">"NG"</set>
+            <set name="domains">"Hız"</set>
+            <set name="symbol">Açık bir kapı</set>
+            <set name="gender">Erkek</set>
+        </setters>
+        <sheet>
+            <description>Hız Tanrısı</description>
+        </sheet>
+    </element>
+    <element name="Anquar" type="Deity" source="Revilia" id="ID_airi_revilia_DEITY_Anquar">
+        <description>
+            <p class="flavor">Arqalunların Tanrısı</p>
+        </description>
+        <setters>
+            <set name="setting">Revilia</set>
+            <set name="alignment">"CN"</set>
+            <set name="domains">"Böcek"</set>
+            <set name="symbol">Hamam Böceği</set>
+            <set name="gender"></set>
+        </setters>
+        <sheet>
+            <description>Böcek Tanrısı</description>
+        </sheet>
+    </element>
+    <element name="Fondurgk" type="Deity" source="Revilia" id="ID_airi_revilia_DEITY_Fondurgk">
+        <description>
+            <p class="flavor">Ruh Diyarının Tanrısı</p>
+        </description>
+        <setters>
+            <set name="setting">Revilia</set>
+            <set name="alignment">"CN"</set>
+            <set name="domains">"Ruh Diyarı"</set>
+            <set name="symbol">Mezar üstünde ay altında ise güneş.</set>
+            <set name="gender"></set>
+        </setters>
+        <sheet>
+            <description>Ruh Diyarının Tanrısı</description>
+        </sheet>
+    </element>
+    <element name="Lodrukan" type="Deity" source="Revilia" id="ID_airi_revilia_DEITY_Lodrukan">
+        <description>
+            <p class="flavor">Hastalık Tanrısı</p>
+        </description>
+        <setters>
+            <set name="setting">Revilia</set>
+            <set name="alignment">"CE"</set>
+            <set name="domains">"Hastalık"</set>
+            <set name="symbol">Fare</set>
+            <set name="gender">Erkek</set>
+        </setters>
+        <sheet>
+            <description>Hastalık Tanrısı</description>
+        </sheet>
+    </element>
+    <element name="Axbaru" type="Deity" source="Revilia" id="ID_airi_revilia_DEITY_Axbaru">
+        <description>
+            <p class="flavor">Deniz Tanrısı</p>
+        </description>
+        <setters>
+            <set name="setting">Revilia</set>
+            <set name="alignment">"LN"</set>
+            <set name="domains">"Deniz Canlıları"</set>
+            <set name="symbol">Yunus</set>
+            <set name="gender">Erkek</set>
+        </setters>
+        <sheet>
+            <description>Deniz Tanrısı</description>
+        </sheet>
+    </element>
+
+</elements>
