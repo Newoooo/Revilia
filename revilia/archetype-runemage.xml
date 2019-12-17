@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+        <name>Rune Mage</name>
+        <description>Rün büyücüsü Revilia'da bulunan rünlerin gücünü kullanarak büyü yapan büyücülerdir.</description>
+        <update version="0.0.1">
+            <file name="wizard-rune.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/homebrew/Revilia/wizard-rune.xml" />
+        </update>
+    </info>
+    <element name="Rün Büyücüsü" type="Archetype" source="Revilia" id="ID_AIRI_REVILIA_WIZARD_ARCHETYPE_RUNEMAGE">
+        <requirements>ID_NEVY_REVILIA_RACE_INSAN</requirements>
+        <supports>Arcane Tradition</supports>
+		<description>
+            <p>Rün büyücüleri kolejlerde dünyada bulunan antik rünlerle alakalı özel eğitim görmüş kişilerdir. Karşılaştıkları düşmana bildikleri rünler ile savaşırlar.</p>
+            <div element="ID_revilia_ARCHETYPE_Rune_Mage_Arcane_Runes" />
+            <div element="ID_revilia_ARCHETYPE_Rune_Mage_Rune_Rituels" />
+            <div element="ID_revilia_ARCHETYPE_Rune_Mage_Primeval_Runes" />
+            <div element="ID_revilia_ARCHETYPE_Rune_Mage_Magical_Items" />
+            <div element="ID_revilia_ARCHETYPE_Rune_Mage_Magical_Trap" />
+        </description>
+        <sheet>
+            <description>Rün büyücüsü savaşta dikkatlı ve planlı hareket etmeli.</description>
+        </sheet>
+        <rules>
+            <grant type="Archetype Feature" id="ID_revilia_ARCHETYPE_Rune_Mage_Arcane_Runes" level="2" />
+            <grant type="Archetype Feature" id="ID_revilia_ARCHETYPE_Rune_Mage_Rune_Rituels" level="2" />
+            <grant type="Archetype Feature" id="ID_revilia_ARCHETYPE_Rune_Mage_Primeval_Runes" level="6" />
+            <grant type="Archetype Feature" id="ID_revilia_ARCHETYPE_Rune_Mage_Magical_Items" level="10" />
+            <grant type="Archetype Feature" id="ID_revilia_ARCHETYPE_Rune_Mage_Magical_Trap" level="14" />
+        </rules>
+    </element>
+    <element name="Arcane Runes" type="Archetype Feature" source="Revilia" id="ID_revilia_ARCHETYPE_Rune_Mage_Arcane_Runes">
+        <description>
+            <p>2. seviyede rün büyülerinin doğasını öğrenip büyüleri ona göre şekillendirmeye başlıyorsunuz. Rünlerinizi bir rün taşına çizip uzak mesafe de kullanabilirsiniz. Rün taşına yazdığınız büyü touch mesafesinde olmak zorunda ve her long rest de sadece iki kere rün yazabilirsiniz. Büyünün fırlatma mesafesi str modifierinize göre belirlenir.</p>
+        </description>
+        <sheet>
+            <description>Yazdığınız rünleri fırlatma mesafeniz {10+{strength:modifier}}</description>
+        </sheet>
+    </element>
+    <element name="Rune Rituels" type="Archetype Feature" source="Revilia" id="ID_revilia_ARCHETYPE_Rune_Mage_Rune_Rituels">
+        <description>
+            <p>2. seviyeden başlayarak ritüel büyülerinizi sembol çizerek yapabilirsiniz bu ritüel büyülerinin verbal ve somatic ihtiyaçlarını karşılar.</p>
+        </description>
+        <sheet>
+            <description>Ritüel büyülerini yere semboller ile çizerek büyüleri somatic ve verbal gereklilik olmadan yapabilirsiniz</description>
+        </sheet>
+    </element>
+    <element name="Primeval Runes" type="Archetype Feature" source="Revilia" id="ID_revilia_ARCHETYPE_Rune_Mage_Primeval_Runes">
+        <description>
+            <p>6. Seviyeden itibaren Antik rünlerin gizemli sırlarını öğrendikten sonra rünlerinizi daha iyi hazırlamaya başlarsınız. Attığınız rüne hasar zarı olarak 2d6 atıp wisdom modifieri ekleyin.</p>
+        </description>
+        <sheet>
+            <description>Hasara 2d6 + {{wisdom:bonus}}</description>
+        </sheet>
+        <rules>
+            <stat name="wisdom:bonus" value="wisdom:modifier" />
+        </rules>
+    </element>
+    <element name="Magical Items" type="Archetype Feature" source="Revilia" id="ID_revilia_ARCHETYPE_Rune_Mage_Magical_Items">
+        <description>
+            <p>10. seviyeden başlayarak büyülü item üretebilirsiniz. Büyüleyeceğiniz nesne fark etmez sadece her long rest de 1 kere şarj edebilirsiniz veya başka bir item yapabilirsiniz. Kullanacağınız büyü seviyenizin yarısı seviyesinde bir büyü olmalı ve sadece iki kere kullanabilirsiniz. Cantripler dışında cantriplerden yapılan büyülü eşyalar hep kullanılabilir fakat o cantripi büyülü eşyayı kırmadığınız sürece tekrar kullanamazsınız.</p>
+        </description>
+        <sheet>
+            <description>{{Rune:Modifier}} seviyesindeki büyüler ile büyülü eşya efsunlayabilirsiniz. Her long rest de bir kere eşyanızı doldurabilir veya yeni item yapabilirsiniz. Kullandığınız büyüyü o eşya sizde olduğu sürece kullanamazsınız. Büyülü eşya eğer cantripse istediğiniz kadar ama seviyeli bir büyü ise en fazla 2 kere kullanabilirsiniz sonra şarj etmeniz gerekir. Rün büyüsü modifierlerini bu itemlarda alır</description>
+        </sheet>
+        <rules>
+            <stat name="Rune:Modifier" value="level:wizard:half" />
+        </rules>
+    </element>
+    <element name="Magical Trap" type="Archetype Feature" source="Revilia" id="ID_revilia_ARCHETYPE_Rune_Mage_Magical_Trap">
+        <description>
+            <p>14. seviyeden itibaren bonus action ile bir rün tuzağı yerleştirebilirsiniz. Elinizdeki bir korunma veya etki rününü cansız bir nesneye atıp ya da yerleştirip tuzak kurabilirsiniz. </p>
+        </description>
+        <sheet>
+            <description>Elinizdeki bir korunma veya etki rününü bonus tur ile cansız bir nesneye atıp ya da yerleştirip tuzak kurabilirsiniz</description>
+        </sheet>
+    </element>
+    
+    
+    
+</elements>

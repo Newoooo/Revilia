@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+    <info>
+    <name>İnsan</name>
+        <description></description>
+        <author url="https://www.facebook.com/groups/209525739513259/">Nevy</author>
+        <update version="1.0">
+            <file name="race-insan.xml" url="www" />
+        </update>
+    </info>
+    <element name="İnsan" type="Race" source="Revilia" id="ID_NEVY_REVILIA_RACE_INSAN">
+        <supports />
+        <description>
+            <p>Diyarın her ucunu yayılmış yaygın halk. Kendilerini fiziklerinden bağımsız istedikleri şekilde geliştirebilen yegâne ırk.</p>
+            <p class="indent"><strong><em>Ability Score Increase.</em></strong> Kendi seçtiğiniz bir ability skorunuz 1 artar, arından subrace seçimi ile ekstra ability alınır.</p>
+            <p class="indent"><strong><em>Age.</em></strong> Yetişkinliğe 20 yaşında ulaşırlar, yarım asırdan biraz daha az yaşarlar.</p>
+            <p class="indent"><strong><em>Size.</em></strong> Genel olarak vücutları birçok farklı şekilde olabilir ancak boyları genelde 5 feet'in üzerindedir. Büyüklüğünüz medium.</p>
+            <p class="indent"><strong><em>Speed.</em></strong> Hızınız 30 feet'tir.</p>
+            <p class="indent"><strong><em>Languages.</em></strong> Herkesin bildiği Nay-traun dilini konuşabilir, ek olarak kendi diliniz olan İnsan dilini konuşabiliyorsunuz. Ayrıca ekstra bir dil biliyorsunuz.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <select type="Racial Trait" name="Ability Score Increase (İnsan)" supports="Insan" number="1" />
+            <grant type="Language" id="ID_NEVY_REVILIA_LANGUAGE_NAY_TRAUN_Dili" />
+            <grant type="Language" id="ID_NEVY_REVILIA_LANGUAGE_INSAN_Dili" />
+            <select type="Language" name="Language (İnsan)" supports="Revilia" />
+            <grant type="Size" id="ID_SIZE_MEDIUM"/>
+            <stat name="innate speed" value="30" bonus="base"/>
+            <select type="Race Variant" name="İnsan Variant" supports="Insan" />
+        </rules>
+    </element>
+
+    <element name="Kır İnsanı" type="Race Variant" source="Revilia" id="ID_NEVY_REVILIA_RACE_VARIANT_KIS_INSANI">
+        <supports>Insan</supports>
+        <description>
+            <p>Atalarınız Revilia diyarlarına dolaşan ilk insan ırkı olmanın gururunu yaşamış. Daha yerleşik ve modern bir yapıda olan Düşük Kır Krallığı'nın vatandaşısınız.</p>
+            <p>
+                <span class="feature">Ability Score Increase.</span>Seçtiğiniz bir ability skoru ve Dexterity skorunuz 1 artar.<br />
+                <p class="indent"><strong><em>İnsan Deneyimi.</em></strong> Genel hayatınız boyunca eğitim odaklı bir çocukluk geçirdiniz. Bu size bir miktar bilgi birikimi kattı. Arcana, History, Religion, Survival, Nature, Performance skillerinden birisinden proficiency alabilirsin.</p>
+            </p>
+        </description>
+        <sheet alt="Kır İnsanı" display="false"/>
+        <rules>
+            <stat name="dexterity" value="1"/>
+            <select type="Racial Trait" name="Ability Score Increase (Kış İnsanı)" supports="Insan" number="1" />
+            <select type="Racial Trait" name="Skill Proficiency (İnsan)" supports="SkillKir" number="1" />
+        </rules>
+    </element>
+
+    <element name="Kuzey İnsanı" type="Race Variant" source="Revilia" id="ID_NEVY_REVILIA_RACE_VARIANT_KUZEY_INSANI">
+        <supports>Insan</supports>
+        <description>
+            <p>Atalarınız İblis Savaşı ardından Kuzey'e gitmiş, uzun yıllar sonra da zor iklim şartlarına adapte olmuşlardır. Soğuk iklimin karşısında dirençle dayanan Kış Gözü Krallığı'nın vatandaşısınız.</p>
+            <p>
+                <span class="feature">Ability Score Increase.</span>Strenght ve Constitution skorunuz 1 artar.<br />
+                <span class="feature">Race Variant Feature.</span>Yıllarca süre gelen bir adapte olma süreci neticesinde soğuğa karşı direnç kazandınız.<br />
+            </p>
+        </description>
+        <sheet alt="Kuzey İnsanı" display="false"/>
+        <rules>
+            <stat name="strenght" value="1"/>
+            <stat name="constitution" value="1"/>
+            <grant type="Condition" id="ID_INTERNAL_CONDITION_DAMAGE_RESISTANCE_COLD"/>
+        </rules>
+    </element>    
+
+     <!--İnsan Ability Select-->
+    <element name="Ability Score Increase (Strength)" type="Racial Trait" source="Revilia" id="ID_NEVY_REVILIA_RACE_INSAN_STRENGTH">
+        <supports>Insan</supports>
+        <description>
+           <p>Strenght skorun 1 yükselir.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+            <stat name="strength" value="1" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Dexterity)" type="Racial Trait" source="Revilia" id="ID_NEVY_REVILIA_RACE_INSAN_DEXTERITY">
+        <supports>Insan</supports>
+        <description>
+          <p>Dexterity skorun 1 yükselir.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+          <stat name="dexterity" value="1" alt="İnsan" />
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Constitution)" type="Racial Trait" source="Revilia" id="ID_NEVY_REVILIA_RACE_INSAN_CONSTITUTION">
+        <supports>Insan</supports>
+        <description>
+          <p>Constitution skorun 1 yükselir.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+          <stat name="constitution" value="1" alt="İnsan"/>
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Intelligence)" type="Racial Trait" source="Revilia" id="ID_NEVY_REVILIA_RACE_INSAN_INTELLIGENCE">
+        <supports>Insan</supports>
+        <description>
+         <p>Intelligence skorun 1 yükselir.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+         <stat name="intelligence" value="1" alt="İnsan"/>
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Wisdom)" type="Racial Trait" source="Revilia" id="ID_NEVY_REVILIA_RACE_INSAN_WISDOM">
+        <supports>Insan</supports>
+        <description>
+          <p>Wisdom skorun 1 yükselir.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+          <stat name="wisdom" value="1" alt="İnsan"/>
+        </rules>
+    </element>
+    <element name="Ability Score Increase (Charisma)" type="Racial Trait" source="Revilia" id="ID_NEVY_REVILIA_RACE_INSAN_CHARISMA">
+        <supports>Insan</supports>
+        <description>
+            <p>Charismaskorun 1 yükselir.</p>
+        </description>
+        <sheet display="false" />
+        <rules>
+         <stat name="charisma" value="1" alt="İnsan"/>
+        </rules>
+    </element>
+
+     <!--Kır İnsanı Proficiency-->
+	<element name="Skill Proficiency (Arcana)" type="Racial Trait" source="Revilia" id="ID_PROFICIENCY_SKILL_ARCANA_INSAN">
+		<supports>SkillKir</supports>
+		<description>
+			<p>Arcana skill'i için uzmanlık bonusu kazanacaksınız.</p>
+			<div element="ID_PROFICIENCY_SKILL_ARCANA" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="arcana:proficiency" value="proficiency" />
+		</rules>
+	</element>
+	<element name="Skill Proficiency (History)" type="Racial Trait" source="Revilia" id="ID_PROFICIENCY_SKILL_HISTORY_INSAN">
+		<supports>SkillKir</supports>
+		<description>
+			<p>History skill'i için uzmanlık bonusu kazanacaksınız.</p>
+			<div element="ID_PROFICIENCY_SKILL_HISTORY" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="history:proficiency" value="proficiency" />
+		</rules>
+	</element>
+	<element name="Skill Proficiency (Religion)" type="Racial Trait" source="Revilia" id="ID_PROFICIENCY_SKILL_RELIGION_INSAN">
+		<supports>SkillKir</supports>
+		<description>
+			<p>Religion skill'i için uzmanlık bonusu kazanacaksınız.</p>
+			<div element="ID_PROFICIENCY_SKILL_RELIGION" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="religion:proficiency" value="proficiency" />
+		</rules>
+	</element>
+	<element name="Skill Proficiency (Medicine)" type="Racial Trait" source="Revilia" id="ID_PROFICIENCY_SKILL_MEDICINE_INSAN">
+		<supports>SkillKir</supports>
+		<description>
+			<p>Medicine skill'i için uzmanlık bonusu kazanacaksınız.</p>
+			<div element="ID_PROFICIENCY_SKILL_MEDICINE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="medicine:proficiency" value="proficiency" />
+		</rules>
+	</element>
+	<element name="Skill Proficiency (Nature)" type="Racial Trait" source="Revilia" id="ID_PROFICIENCY_SKILL_NATURE_INSAN">
+		<supports>SkillKir</supports>
+		<description>
+			<p>Nature skill'i için uzmanlık bonusu kazanacaksınız.</p>
+			<div element="ID_PROFICIENCY_SKILL_NATURE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="nature:proficiency" value="proficiency" />
+		</rules>
+	</element>
+	<element name="Skill Proficiency (Performance)" type="Racial Trait" source="Revilia" id="ID_PROFICIENCY_SKILL_PERFORMANCE_INSAN">
+		<supports>SkillKir</supports>
+		<description>
+			<p>Performance skill'i için uzmanlık bonusu kazanacaksınız.</p>
+			<div element="ID_PROFICIENCY_SKILL_PERFORMANCE" />
+		</description>
+		<sheet display="false" />
+		<rules>
+			<stat name="performance:proficiency" value="proficiency" />
+		</rules>
+	</element>
+</elements>
