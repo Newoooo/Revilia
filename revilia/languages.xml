@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Languages</name>
+		<description>Revilia'da konuşulan diller.</description>
+		<author url="wwww">Revilia</author>
+		<update version="0.2">
+			<file name="revilia-languages.xml" url="wwww" />
+		</update>
+	</info>
+
+    <element name="Nay-Traun Dili" type="Language" source="Revilia" id="ID_NEVY_REVILIA_LANGUAGE_NAY_TRAUN_Dili">
+        <supports>Revilia</supports>
+        <description>
+            <p>Revilia boyunca konuşulan ana dildir.</p>
+        </description>
+        <setters>
+            <set name="exotic">false</set>
+            <set name="speakers">Auvan, Fyphe, Human, Koatra, Kueut, Kvahul, Magistal, Neliivy, Nikiele, Oarun, Sulfen, Trin</set>
+            <set name="script"></set>
+        </setters>
+    </element>
+
+    <element name="Auven" type="Language" source="Revilia" id="ID_NEVY_LANGUAGE_REVILIA_AUVEN">
+        <supports>Revilia</supports>
+        <description>
+            <p>Genellikle Auvanlar tarafından konuşulur.</p>
+        </description>
+        <setters>
+            <set name="exotic">false</set>
+            <set name="speakers">Auvan</set>
+            <set name="script"></set>
+        </setters>
+    </element>
+
+    <element name="Fyphen" type="Language" source="Revilia" id="ID_NEVY_REVILIA_LANGUAGE_FYPHEN">
+        <supports>Revilia</supports>
+        <description>
+            <p>Genellikle Fypheler tarafından konuşulur.</p>
+        </description>
+        <setters>
+            <set name="exotic">false</set>
+            <set name="speakers">Fyphe</set>
+            <set name="script"></set>
+        </setters>
+    </element>
+
+    <element name="İnsan Dili" type="Language" source="Revilia" id="ID_NEVY_REVILIA_LANGUAGE_INSAN_Dili">
+        <supports>Revilia</supports>
+        <description>
+            <p>İnsanlar ve Sulfenler tarafından konuşulur.</p>
+        </description>
+        <setters>
+            <set name="exotic">false</set>
+            <set name="speakers">İnsan, Sulfen</set>
+            <set name="script"></set>
+        </setters>
+    </element>
+
+    <element name="Koatran" type="Language" source="Revilia" id="ID_NEVY_REVILIA_LANGUAGE_KOATRAN">
+        <supports>Revilia</supports>
+        <description>
+            <p>Genellikle Koatralar tarafından konuşulur.</p>
+        </description>
+        <setters>
+            <set name="exotic">false</set>
+            <set name="speakers">Koatra</set>
+            <set name="script"></set>
+        </setters>
+    </element>
+
+    <element name="Kuet" type="Language" source="Revilia" id="ID_NEVY_REVILIA_LANGUAGE_KUET">
+        <supports>Revilia</supports>
+        <description>
+            <p>Genellikle Kueutlar tarafından konuşulur.</p>
+        </description>
+        <setters>
+            <set name="exotic">false</set>
+            <set name="speakers">Kueut</set>
+            <set name="script"></set>
+        </setters>
+    </element>
+
+    <element name="Kvahulu" type="Language" source="Revilia" id="ID_NEVY_REVILIA_LANGUAGE_KVAHULU">
+        <supports>Revilia</supports>
+        <description>
+            <p>Genellikle Kvahul tarafından konuşulur.</p>
+        </description>
+        <setters>
+            <set name="exotic">false</set>
+            <set name="speakers">Kvahul</set>
+            <set name="script"></set>
+        </setters>
+    </element>
+
+    <element name="Magis" type="Language" source="Revilia" id="ID_NEVY_REVILIA_LANGUAGE_MAGIS">
+        <supports>Revilia</supports>
+        <description>
+            <p>Genellikle Magistal tarafından konuşulur.</p>
+        </description>
+        <setters>
+            <set name="exotic">false</set>
+            <set name="speakers">Magistal</set>
+            <set name="script"></set>
+        </setters>
+    </element>
+
+    <element name="Neliivin" type="Language" source="Revilia" id="ID_NEVY_REVILIA_LANGUAGE_NELIVIIN">
+        <supports>Revilia</supports>
+        <description>
+            <p>Genellikle Neliivy tarafından konuşulur.</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Neliivy</set>
+            <set name="script"></set>
+        </setters>
+    </element>
+
+    <element name="Nikiele" type="Language" source="Revilia" id="ID_NEVY_REVILIA_LANGUAGE_NIKIELE">
+        <supports>Revilia</supports>
+        <description>
+            <p>Genellikle Nikiele tarafından konuşulur.</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">Nikiele</set>
+            <set name="script"></set>
+        </setters>
+    </element>
+
+    <element name="Oaren" type="Language" source="Revilia" id="ID_NEVY_REVILIA_LANGUAGE_OAREN">
+        <supports>Revilia</supports>
+        <description>
+            <p>Genellikle Oarun tarafından konuşulur.</p>
+        </description>
+        <setters>
+            <set name="exotic">false</set>
+            <set name="speakers">Oarun</set>
+            <set name="script"></set>
+        </setters>
+    </element>
+
+    <element name="Infernial" type="Language" source="Revilia" id="ID_NEVY_REVILIA_LANGUAGE_INFERNIAL">
+        <supports>Revilia</supports>
+        <description>
+            <p>Genellikle İblisler ve Sulfenler tarafından konuşulur.</p>
+        </description>
+        <setters>
+            <set name="exotic">true</set>
+            <set name="speakers">İblis, Sulfen</set>
+            <set name="script"></set>
+        </setters>
+    </element>
+
+    <element name="Trin" type="Language" source="Revilia" id="ID_NEVY_REVILIA_LANGUAGE_TRIN">
+        <supports>Revilia</supports>
+        <description>
+            <p>Genellikle Trinler tarafından konuşulur.</p>
+        </description>
+        <setters>
+            <set name="exotic">false</set>
+            <set name="speakers">Trin</set>
+            <set name="script"></set>
+        </setters>
+    </element>
+</elements>
