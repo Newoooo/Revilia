@@ -14,7 +14,7 @@
 		<file name="deities.xml" url="https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia/deities.xml" />
 		
 		<!-- races -->
-		<file name="race-insan.xml" url"https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia/race-insan.xml" />
+		<file name="race-insan.xml" url="https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia/race-insan.xml" />
 		
 		<!-- archetypes -->
 		<file name="archetype-runemage.xml" url="https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia/archetype-runemage.xml" />
