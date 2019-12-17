@@ -5,7 +5,7 @@
         <description></description>
         <author url="https://www.facebook.com/groups/209525739513259/">Nevy</author>
         <update version="1.0">
-            <file name="race-insan.xml" url="https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia/race-insan.xml?token=AOB3S5E6R32ZAGUBU5LFZZK57BHWI" />
+            <file name="race-insan.xml" url="https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia/race-insan.xml" />
         </update>
     </info>
     <element name="İnsan" type="Race" source="Revilia" id="ID_NEVY_REVILIA_RACE_INSAN">
