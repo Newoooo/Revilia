@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<update version="0.0.1">
-			<file name="sources.xml" url="https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia/sources.xml?token=AOB3S5HN34JXJROLY4F4ZJC57BH72" />
+			<file name="sources.xml" url="https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia/sources.xml" />
 		</update>
 	</info>
 	<element name="Revilia" type="Source" source="Revilia" id="ID_Revilia_RVL_SOURCE_Revilia">
