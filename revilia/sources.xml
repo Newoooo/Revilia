@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <elements>
+	<info>
+		<update version="0.0.1">
+			<file name="sources.xml" url="https://raw.githubusercontent.com/aurorabuilder/elements/master/core/sources.xml" />
+		</update>
+	</info>
 	<element name="Revilia" type="Source" source="Revilia" id="ID_Revilia_RVL_SOURCE_Revilia">
 		<description>
 			<![CDATA[<p>Revilia Eren Düşmez tarafından yaratılan, önceleri basit bir FRP sistemi ile oynatılan, sonrasında ise Nevy ve Airi tarafından 5e'ye aktarılan kurgusal bir evrendir.</p><h4>Revilia</h4><p>"BURAYA TARİHSEL ÖZET GELECEK"</p>]]>			
