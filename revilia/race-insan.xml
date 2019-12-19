@@ -4,7 +4,7 @@
     <name>İnsan</name>
         <description></description>
         <author url="https://www.facebook.com/groups/209525739513259/">Nevy</author>
-        <update version="1.0">
+        <update version="1.1">
             <file name="race-insan.xml" url="https://raw.githubusercontent.com/Newoooo/Revilia/master/revilia/race-insan.xml" />
         </update>
     </info>
